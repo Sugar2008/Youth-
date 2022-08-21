@@ -1,0 +1,62 @@
+.about {
+  width: 1200px;
+  margin: 30px auto;
+}
+.about .video {
+  background-color: #fff;
+}
+.about .video video {
+  width: 100%;
+}
+.about .contact {
+  background-color: #fff;
+  padding: 50px 0 50px 830px;
+  text-align: left;
+}
+.about h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 15px;
+}
+.about div {
+  font-size: 16px;
+  color: #777e87;
+  line-height: 40px;
+}
+.about .contact div span {
+  color: #383e46;
+}
+.about .map {
+  height: 400px;
+  width: 1200px;
+  background-color: #fff;
+}
+.about .message {
+  background-color: #fff;
+  text-align: left;
+  padding: 50px 0 50px 100px;
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 5%);
+}
+.about .message div {
+  line-height: 20px;
+  color: #383e46;
+}
+.about .message .m1 {
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+.about .message .m2 {
+  display: flex;
+  align-items: flex-start;
+}
+.about .message input {
+  width: 200px;
+  padding: 5px;
+  outline: 0;
+}
+.about .message textarea {
+  outline: 0;
+  border-radius: 2px;
+  padding: 5px;
+}

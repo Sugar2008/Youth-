@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.body {
+  font-size: 12px;
+  color: #5d5d5d;
+  /* display: block; */
+  background-color: #fffafa;
+  user-select: none;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+

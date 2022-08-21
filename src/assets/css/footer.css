@@ -1,0 +1,126 @@
+.footer {
+  background: url("../img/footer/bg.png");
+  background-color: #333;
+  font-family: calibri, "宋体", Arial, sans-serif;
+}
+
+/* 最近更新 */
+.renew .update {
+  width: 900px;
+  color: #999;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.renew .update .comments,
+.renew .update .tags,
+.renew .update .readcall {
+  text-align: center;
+  width: 240px;
+  height: auto;
+  padding: 0 30px 20px;
+}
+.renew .update h3 {
+  margin: 30px 0 12px;
+  padding: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #ccc;
+}
+/* 最近更新 -- 最新评论 */
+.renew .update .comments ul li {
+  padding: 7px 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+.renew .update .comments ul li img {
+  width: 33px;
+  height: 33px;
+  margin-right: 6px;
+  border-radius: 50%;
+  opacity: 0.8;
+  display: inline-block;
+  vertical-align: middle;
+}
+.renew .update .comments ul li img:hover {
+  opacity: 1;
+}
+.renew .update ul li a {
+  color: #888;
+  font-size: 14px;
+}
+.renew .update ul li a:hover {
+  color: #bbb;
+}
+/* 最近更新 -- 热门标签 */
+.renew .update .tags li {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  padding: 3.1px 10px;
+  overflow: hidden;
+  float: left;
+}
+/* 最近更新 -- 留言墙 */
+.renew .update .readcall li {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  margin: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.renew .update .readcall li a {
+  height: 50px;
+  padding: 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+.renew .update .readcall li a:hover {
+  opacity: 1;
+}
+.renew .update .readcall li a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* 友情链接 */
+/* 关于我们 */
+.friend_link,
+.about,
+.copy {
+  margin: 0 auto;
+  text-align: center;
+  color: #999;
+  padding: 6px 0;
+  font-size: 12px;
+}
+.friend_link {
+  border-top: 1px solid #777;
+  padding-top: 20px;
+}
+.copy {
+  padding-bottom: 20px;
+}
+.friend_link span {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  color: #999;
+  line-height: 22px;
+  margin-right: 15px;
+}
+.friend_link a,
+.about a {
+  color: #999;
+  font-size: 12px;
+  margin: 0 10px;
+  white-space: nowrap;
+  letter-spacing: 1px;
+}
+
+.friend_link a:hover,
+.about a:hover {
+  color: #ccc;
+}

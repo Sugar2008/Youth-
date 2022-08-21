@@ -1,0 +1,9 @@
+.middle {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.middle .middleR .middleR1 img {
+  width: 100%;
+  height: 300px;
+}

@@ -1,0 +1,217 @@
+.wblog {
+  width: 1200px;
+  margin: 10px auto 30px;
+}
+.wblog .userhead {
+  background: url("../img/writeblog/bj.jpg") no-repeat top;
+  background-size: 1820px 100px;
+  margin: 20px auto;
+}
+/* 头部背景图 */
+.wblog .userhead .headbanner {
+  width: 1200px;
+  margin: auto;
+  height: 100px;
+}
+/* .wblog .userbody .bodyR .bodyRnav el-tab-pane */
+/* 头部个人信息 */
+.wblog .userhead .headinfo,
+.wblog .userbody .bodyL {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 5%);
+}
+.wblog .userhead .headinfo {
+  padding: 0 16px;
+}
+.wblog .userhead .headinfo .headinfot {
+  display: flex;
+  justify-content: space-between;
+}
+.wblog .userhead .headinfo .infot .tL {
+  display: flex;
+  flex: 1;
+}
+.wblog .userhead .headinfo .infot .tL .tll {
+  width: 102px;
+  height: 90px;
+  position: relative;
+}
+.wblog .userhead .headinfo .infot .tL .tll .tavatar {
+  position: absolute;
+  top: -12px;
+  width: 102px;
+  height: 102px;
+  border: 4px solid #f0f0f2;
+  border-radius: 50%;
+  background: #fff;
+}
+.wblog .userhead .headinfo .infot .tL .tll .tavatar img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+.wblog .userhead .headinfo .infot .tL .tll a {
+  position: absolute;
+  right: -3px;
+  bottom: -6px;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+.wblog .userhead .headinfo .infot .tL .tll a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+}
+.wblog .userhead .headinfo .infot .tL .trr {
+  flex: 1;
+  margin-left: 16px;
+}
+.wblog .userhead .headinfo .infot .tL .trr .hname {
+  padding: 15px 0 0 0;
+}
+.wblog .userhead .headinfo .infot .tL .trr .hname span:not(.nick) {
+  min-width: 18px;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 7px;
+  margin: 0 8px;
+  text-align: center;
+  word-break: break-all;
+  color: #fff;
+  box-shadow: 1px 1px 1px rgba(0 0 0 / 10%);
+}
+.wblog .userhead .headinfo .infot .tL .trr .hname .nick {
+  margin: 0 12px;
+  color: #222226;
+  font-size: 22px;
+  font-family: "微软雅黑";
+  font-weight: 500;
+  line-height: 24px;
+}
+.wblog .userhead .headinfo .infot .tL .trr .hname .sex {
+  background-color: #ff69b4;
+}
+.wblog .userhead .headinfo .infot .tL .trr .hname .lv {
+  background-color: #ffb808;
+}
+.wblog .userhead .headinfo .infot .tL .trr .hname .vip {
+  background-color: #ff5722;
+}
+.wblog .userhead .headinfo .infot .tL .trr .hnews {
+  margin: 10px 0 0 3px;
+  color: #ddd;
+  line-height: 24px;
+  height: 24px;
+}
+.wblog .userhead .headinfo .infot .tL .trr .hnews span {
+  color: #555666;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.wblog .userhead .headinfo .infot .tL .trr .hnews span span {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 520;
+  color: #222226;
+  margin-right: 7px;
+  padding: 0;
+}
+.wblog .userhead .headinfo .infob {
+  margin-left: 130px;
+}
+.wblog .userhead .headinfo .infob span {
+  margin-left: 7px;
+}
+.wblog .userhead .headinfo .infob .address {
+  font-size: 14px;
+  color: #555666;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.wblog .userhead .headinfo .infob .detail {
+  color: #555666;
+  padding-bottom: 24px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.wblog .userhead .headinfo .infob .detail .dhide li {
+  margin-bottom: 10px;
+}
+
+/* 写博客主体 */
+.wblog .userbody {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.wblog .userbody .bodyR {
+  width: 880px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+.wblog .userbody .bodyR .bbody {
+  padding: 25px 0 0 25px;
+}
+.wblog .userbody .bodyR .bbody div {
+  padding-bottom: 15px;
+}
+.wblog .userbody .bodyR .bbody span {
+  font-size: 13px;
+  margin-right: 7px;
+}
+.wblog .userbody .bodyR .bbody .btitle select {
+  margin-right: 7px;
+  padding: 2px;
+  color: #5d5d5d;
+  outline: 0;
+}
+.wblog .userbody .bodyR .bbody .btitle input {
+  width: 250px;
+  padding: 2px 0;
+  outline: 0;
+}
+.wblog .userbody .bodyR .bbody .bcontent {
+  display: flex;
+  align-items: flex-start;
+}
+.wblog .userbody .bodyR .bbody .bcontent textarea {
+  outline: 0;
+  border-radius: 2px;
+}
+.wblog .userbody .bodyR .bbody .btype input {
+  margin-right: 3px;
+  padding: 0;
+}
+.wblog .userbody .bodyR .bbody .btype label {
+  margin-right: 20px;
+  display: inline-block;
+  font-size: 14px;
+}
+.wblog .userbody .bodyR .bbody .bdata {
+  display: flex;
+}
+.wblog .userbody .bodyR .bbody .button {
+  text-align: center;
+}
+.wblog .userbody .bodyR .bbody .button input {
+  height: 30px;
+  width: 80px;
+  margin: 0 20px;
+  background-color: #409eff;
+  color: #fff;
+  border: 0;
+  border-radius: 2px;
+}
+.wblog .userbody .bodyR .bbody .button input:active {
+  background-color: #2196f3;
+  box-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+}

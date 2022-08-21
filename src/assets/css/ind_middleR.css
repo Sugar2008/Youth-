@@ -1,0 +1,145 @@
+.middleR {
+  width: 850px;
+}
+/* 博客文章 */
+.middleR .middleR2 {
+  margin-top: 20px;
+}
+.middleR .middleR2 .blogList .blogWords {
+  background-image: url("../img/index/middleR2/blogWordBJ1.png");
+  padding: 18px 0 5px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 800px;
+  background-color: #fff;
+}
+.middleR .middleR2 .blogList .blogWords .blogInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.middleR .middleR2 .blogList .blogWords .blogInfo .blogInfoL {
+  vertical-align: middle;
+  line-height: 100%;
+  /* height: 210px; */
+  margin: 0 0 17px 20px;
+  display: flex;
+}
+.middleR .middleR2 .blogList .blogWords .blogInfo .blogInfoL .avater {
+  margin-right: 10px;
+}
+
+.middleR .middleR2 .blogList .blogWords .blogInfo .blogInfoL .avater img {
+  height: 52px;
+  width: 50px;
+  border: 1px solid #f3f3f3;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.middleR .middleR2 .blogList .blogWords .blogInfo .blogInfoL .name font {
+  color: #333;
+  font-size: 14px;
+}
+
+.middleR .middleR2 .blogList .blogWords .blogInfo .blogInfoL .name .mark {
+  min-width: 8px;
+  border-radius: 9px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 5px;
+  margin-left: 8px;
+  color: #fff;
+  box-shadow: 1px 1px 1px rgba(0 0 0 / 10%);
+}
+.middleR .middleR2 .blogList .blogWords .blogInfo .blogInfoL .name .lv {
+  background-color: #ffb808;
+}
+
+.middleR .middleR2 .blogList .blogWords .blogInfo .blogInfoL .name .vip {
+  background-color: #ff5722;
+}
+.middleR .middleR2 .blogList .blogWords .blogInfo .blogInfoL .name p {
+  width: 160px;
+  margin: 10px 0 0 0;
+  font-size: 13px;
+  color: #808080;
+  cursor: pointer;
+}
+.middleR .middleR2 .blogList .blogWords .blogInfo .blogInfoR div{
+  line-height: 20px;
+  font-size: 20px;
+  padding: 0 20px;
+}
+.middleR .middleR2 .blogList .blogWords .blogContent {
+  overflow: hidden;
+  font-size: 15px;
+  word-break: break-all;
+  line-height: 160%;
+  padding: 0 20px;
+}
+.middleR .middleR2 .blogList .blogWords .blogContent p {
+  line-height: 30px;
+  text-indent: 2em;
+}
+.middleR .middleR2 .blogList .blogWords .blogImage {
+  /* height: 300px; */
+  width: 810px;
+  overflow: hidden;
+  margin: 10px 20px;
+}
+.middleR .middleR2 .blogList .blogWords .blogImage img {
+  width: 50%;
+  height: auto;
+  border-radius: 0;
+  cursor: url("../img/index/middleR2/open_new.cur"), auto;
+  border: 1px solid #f1f1f1;
+}
+.middleR .middleR2 .blogList .blogWords .blogBar {
+  margin: 15px 0 0 0;
+  height: 30px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.middleR .middleR2 .blogList .blogWords .blogBar .bar {
+  line-height: 32px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #9c9898;
+  margin-right: 40px;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+.middleR .middleR2 .blogList .blogWords .blogBar .bar img {
+  width: 18px;
+  height: 18px;
+  /* display: inline-block; */
+  vertical-align: -3px;
+  margin-right: 5px;
+}
+.middleR .middleR2 .blogList .blogWords .blogBar .tag a {
+  line-height: 18px;
+  color: #bbb;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.middleR .middleR2 .blogList .blogWords .blogVisitor {
+  padding: 5px 0 0;
+  border-top: 1px solid #f7f7f7;
+  margin: 10px 20px 0;
+}
+.middle .middleR .middleR2 .blogList .blogWords .blogVisitor a {
+  display: inline-block;
+  margin: 8px 8px 0 0;
+}
+.middleR .middleR2 .blogList .blogWords .blogVisitor img {
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+  border: 1px solid #f2f2f5;
+  background-color: #e0dcdc;
+}
